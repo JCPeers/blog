@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+/* *********** Header- Nav bar ************* */
+
+.topnav {
+  background-color: #cc0000;
+  padding: 40px 0;
+  overflow: hidden;
+  width: 100%;
+}
+.nav-subject:hover {
+  color: #ffff00;
+}
+
+.topnav,
+.nav-subject {
+  text-align: center;
+  text-decoration: none;
+}
+.nav-subject {
+  float: left;
+  margin-left: 36px;
+}
+
+.nav-subject,
+.nav-subjects {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.nav-subjects {
+  margin: 0 26px;
+  text-decoration: none;
+}
+
+.nav-subjects:hover {
+  color: #40ff00;
+}
+
+.topnav-right {
+  float: right;
+}
