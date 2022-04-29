@@ -18,42 +18,63 @@ body {
   overflow: hidden;
   width: 100%;
 }
-.nav-subject:hover {
-  color: var(--blog-blushPink);
-}
 
 .topnav,
 .nav-subject {
   text-align: center;
   text-decoration: none;
 }
-.nav-subject {
-  float: left;
-  margin-left: 36px;
+
+.topnav-right {
+  float: right;
 }
 
 .nav-subject,
-.nav-subjects {
+.nav-subjects,
+.nav-subjects-contact {
   color: white;
   font-family: "Josefin Sans", sans-serif;
   font-family: "Lato", sans-serif;
   font-weight: 900;
   font-size: 26px;
+  text-decoration: none;
+}
+
+.nav-subject {
+  float: left;
+  margin-left: 36px;
 }
 
 .nav-subjects {
   margin: 0 26px;
   text-decoration: none;
+  font-size: 22px;
+}
+
+.nav-subjects-contact {
+  margin-right: 26px;
+  font-size: 22px;
+}
+
+.nav-subject:hover {
+  color: var(--blog-blushPink);
 }
 
 .nav-subjects:hover {
   color: var(--blog-skinColor);
 }
 
-.topnav-right {
-  float: right;
+.nav-subjects-contact:hover {
+  color: var(--blog-blushPink);
 }
 
+/* ************ main *************** */
+
+.image-minefield {
+  margin: 20px;
+  height: 333px;
+  width: 600px;
+}
 /* ************* footer************** */
 .footer {
   position: fixed;
