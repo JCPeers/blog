@@ -72,9 +72,33 @@ body {
 
 .image-minefield {
   margin: 20px;
-  height: 333px;
-  width: 600px;
+  width: 350px;
+  border: var(--blog-purple) solid 2px;
 }
+.image-penguins {
+  width: 100%;
+}
+
+.text-container {
+  border-top: var(--blog-purple) solid 2px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  line-height: 5px;
+  height: 130px;
+}
+.image-text-container {
+  margin: 20px 0 30px;
+}
+
+.coding-journey-link {
+  color: #fe6d73;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 26px;
+  display: block;
+}
+
 /* ************* footer************** */
 .footer {
   position: fixed;
