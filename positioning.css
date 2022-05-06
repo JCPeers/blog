@@ -1,0 +1,56 @@
+html {
+  background-color: aquamarine;
+  /* padding: 15px; */
+  border: 2px solid black;
+  /* margin: 15px; */
+  height: 1000px;
+}
+
+body {
+  background-color: rgb(170, 187, 240);
+  /* padding: 50px; */
+  border: 2px solid black;
+  margin: 0px;
+}
+
+.background-image {
+  background: url(./images/heart.jpg);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-repeat: tiled;
+  z-index: -1;
+  /* top: 0;
+  left: 0; */
+}
+
+.parent {
+  background-color: yellow;
+  padding: 20px;
+}
+
+.child-1 {
+  background-color: pink;
+  border: 2px solid black;
+  padding: 10px;
+  /* margin: 20px 0px; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.child-2 {
+  background-color: purple;
+  border: 2px solid black;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.child-3 {
+  background-color: aqua;
+  border: 2px solid black;
+  margin: 20px 0px;
+  padding: 10px;
+}
