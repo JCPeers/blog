@@ -74,6 +74,11 @@ body {
 }
 
 /* ************ main *************** */
+main{
+  position: relative;
+  z-index: -1;
+  top:120px;
+}
 
 .image-minefield-container {
   margin: 20px 0px 0px 20px;
@@ -181,9 +186,9 @@ body {
 
 /* ************* footer************** */
 .footer {
-  position: sticky;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  z-index:-1;
+  top: 250px;
   height: 40px;
   width: 100%;
   background-color: var(--blog-pink);
