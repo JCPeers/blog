@@ -56,6 +56,42 @@ body {
   font-size: 22px;
 }
 
+.fa-file-code{
+  height:50px;
+  width:50x;
+  color: white;
+  position: absolute;
+  top: 70px;
+  right:515px;
+}
+
+.fa-bandage{
+  height:50px;
+  width:50x;
+  color: white;
+  position: absolute;
+  top: 70px;
+  right:350px;
+}
+
+.fa-cat{
+  height:50px;
+  width:50x;
+  color: white;
+  position: absolute;
+  top: 70px;
+  right:215px;
+}
+
+.fa-mobile-screen{
+  height:50px;
+  width:50x;
+  color: white;
+  position: absolute;
+  top: 70px;
+  right:80px;
+}
+
 .nav-subjects-contact {
   margin-right: 26px;
   font-size: 22px;
@@ -75,8 +111,9 @@ body {
 
 /* ************ main *************** */
 main{
-  position: relative;
-  z-index: -1;
+  position:relative;
+  z-index: 200;
+  display: flexbox;
   top:120px;
 }
 
@@ -104,8 +141,6 @@ main{
   color: #344e41;
 }
 
-.image-text-container:hover {
-}
 
 .coding-journey-link {
   color: #3a7575;
@@ -117,35 +152,49 @@ main{
   display: block;
 }
 
+.coding-journey-link:hover{
+  cursor: grabbing;
+  color:darkolivegreen;
+  font-size: 18px;
+}
+
 .image-learning-container {
   display: inline-block;
   margin: 30px 0px 0px 80px;
   vertical-align: top;
   height: auto;
-  width: 200px;
+  width: 400px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+  position: relative;
 }
 
 .image-learning {
   height: 150px;
   width: 150px;
   margin-top: 8px;
+  
 }
 
 .learning-text {
   color: #0466c8;
+  font-size: 16px;
 }
+
 
 .learning-text:hover {
   color: #00b4d8;
+  cursor: grabbing;
+  font-size: 18px;
 }
+
+
 .image-heart-container {
   display: inline-block;
   margin: 30px 0px 0px 80px;
   vertical-align: top;
   height: auto;
-  width: 200px;
+  width: 400px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -155,10 +204,12 @@ main{
 }
 .heart-text {
   color: #a30b2e;
-  font-size: 18px;
+  font-size: 16px;
 }
 .heart-text:hover {
   color: #e62020;
+  cursor: grabbing;
+  font-size: 18px;
 }
 
 .image-rabbit-container {
@@ -166,7 +217,7 @@ main{
   margin: 30px 0px 0px 80px;
   vertical-align: top;
   height: auto;
-  width: 200px;
+  width: 400x;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -182,7 +233,10 @@ main{
 
 .rabbit-text:hover {
   color: #008000;
+  cursor: grabbing;
+  font-size: 18px;
 }
+
 
 /* ************* footer************** */
 .footer {
