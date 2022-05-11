@@ -12,8 +12,11 @@
 
 body {
   margin: 0;
-  height: 2000px;
+  height: 100vh;
+ 
+/* background-image: url("images/circles-1176891.jpg"); */
 }
+
 
 /* *********** Header- Nav bar ************* */
 
@@ -23,6 +26,7 @@ body {
   overflow: hidden;
   width: 100%;
   position: fixed;
+  z-index:1;
 }
 
 .topnav,
@@ -112,10 +116,11 @@ body {
 /* ************ main *************** */
 main{
   position:relative;
-  z-index: 200;
+
   display: flexbox;
   top:120px;
 }
+  
 
 .image-minefield-container {
   margin: 20px 0px 0px 20px;
@@ -217,7 +222,7 @@ main{
   margin: 30px 0px 0px 80px;
   vertical-align: top;
   height: auto;
-  width: 400x;
+  width: 400px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -240,17 +245,20 @@ main{
 
 /* ************* footer************** */
 .footer {
-  position: relative;
-  z-index:-1;
-  top: 250px;
+  display:flex;
+  align-items: center;
+position: fixed;
+bottom: 0;
   height: 40px;
   width: 100%;
   background-color: var(--blog-pink);
   color: var(--blog-skinColor);
+  padding: 20px;
 }
 
 .footer-name {
-  margin-left: 20px;
+
   font-family: "Josefin Sans", sans-serif;
-  padding-top: 12px;
+margin:0;
+
 }
