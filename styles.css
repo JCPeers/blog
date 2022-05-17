@@ -13,10 +13,9 @@
 body {
   margin: 0;
   height: 100vh;
- 
-/* background-image: url("images/circles-1176891.jpg"); */
-}
 
+  /* background-image: url("images/circles-1176891.jpg"); */
+}
 
 /* *********** Header- Nav bar ************* */
 
@@ -26,7 +25,7 @@ body {
   overflow: hidden;
   width: 100%;
   position: fixed;
-  z-index:1;
+  z-index: 1;
 }
 
 .topnav,
@@ -60,40 +59,40 @@ body {
   font-size: 22px;
 }
 
-.fa-file-code{
-  height:50px;
-  width:50x;
+.fa-file-code {
+  height: 50px;
+  width: 50x;
   color: white;
   position: absolute;
-  top: 70px;
-  right:515px;
+
+  right: 515px;
 }
 
-.fa-bandage{
-  height:50px;
-  width:50x;
+.fa-bandage {
+  height: 50px;
+  width: 50x;
   color: white;
   position: absolute;
-  top: 70px;
-  right:350px;
+
+  right: 350px;
 }
 
-.fa-cat{
-  height:50px;
-  width:50x;
+.fa-cat {
+  height: 50px;
+  width: 50x;
   color: white;
   position: absolute;
-  top: 70px;
-  right:215px;
+
+  right: 215px;
 }
 
-.fa-mobile-screen{
-  height:50px;
-  width:50x;
+.fa-mobile-screen {
+  height: 50px;
+  width: 50x;
   color: white;
   position: absolute;
   top: 70px;
-  right:80px;
+  right: 80px;
 }
 
 .nav-subjects-contact {
@@ -114,13 +113,12 @@ body {
 }
 
 /* ************ main *************** */
-main{
-  position:relative;
+main {
+  position: relative;
 
   display: flexbox;
-  top:120px;
+  top: 120px;
 }
-  
 
 .image-minefield-container {
   margin: 20px 0px 0px 20px;
@@ -146,7 +144,6 @@ main{
   color: #344e41;
 }
 
-
 .coding-journey-link {
   color: #3a7575;
   text-decoration: none;
@@ -157,9 +154,9 @@ main{
   display: block;
 }
 
-.coding-journey-link:hover{
+.coding-journey-link:hover {
   cursor: grabbing;
-  color:darkolivegreen;
+  color: darkolivegreen;
   font-size: 18px;
 }
 
@@ -178,7 +175,6 @@ main{
   height: 150px;
   width: 150px;
   margin-top: 8px;
-  
 }
 
 .learning-text {
@@ -186,13 +182,11 @@ main{
   font-size: 16px;
 }
 
-
 .learning-text:hover {
   color: #00b4d8;
   cursor: grabbing;
   font-size: 18px;
 }
-
 
 .image-heart-container {
   display: inline-block;
@@ -242,13 +236,12 @@ main{
   font-size: 18px;
 }
 
-
 /* ************* footer************** */
 .footer {
-  display:flex;
+  display: flex;
   align-items: center;
-position: fixed;
-bottom: 0;
+  position: fixed;
+  bottom: 0;
   height: 40px;
   width: 100%;
   background-color: var(--blog-pink);
@@ -257,8 +250,6 @@ bottom: 0;
 }
 
 .footer-name {
-
   font-family: "Josefin Sans", sans-serif;
-margin:0;
-
+  margin: 0;
 }
