@@ -1,31 +1,53 @@
-body {
-  background: url(images/pexels-lumn-399160.jpg);
-  background-size: cover;
-}
-
 .coding-blog-sections {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around;
-  position: relative;
-  top: 200px; */
-  padding: 200px;
+  padding-top: 150px;
+  background: url(images/pexels-lumn-399160.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  /* background-color: lime; */
 }
 
 .coding-blog-section {
-  border: red solid 2px;
   width: 500px;
   margin-top: 10px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .section-large {
-  width: 1400px;
+  width: 1200px;
+  height: auto;
   margin: 10px auto;
+  display: flex;
+  flex-wrap: no-wrap;
+  background: transparent;
+}
+.why-coding-title {
+  font-size: 32px;
+  padding-top: 100px;
+  width: 850px;
+}
+
+.why-coding-article {
+  padding-top: 40px;
+}
+
+.laptop-image-container {
+  width: 40%;
+  margin: 20px;
+}
+
+.laptop-blog-section {
+  height: 275px;
+  width: 420px;
+  margin-left: 40px;
 }
 
 .section-small {
-  width: 600px;
+  width: 500px;
+  height: auto;
   margin: 50px auto;
 }
