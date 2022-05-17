@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  /* background-color: lime; */
 }
 
 .coding-blog-section {
@@ -22,9 +21,10 @@
   height: auto;
   margin: 10px auto;
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   background: transparent;
 }
+
 .why-coding-title {
   font-size: 32px;
   padding-top: 100px;

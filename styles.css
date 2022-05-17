@@ -21,26 +21,17 @@ body {
 
 .topnav {
   background-color: var(--blog-purple);
-  padding: 40px 0;
   overflow: hidden;
   width: 100%;
   position: fixed;
   z-index: 1;
-}
-
-.topnav,
-.nav-subject {
-  text-align: center;
-  text-decoration: none;
-}
-
-.topnav-right {
-  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-subject,
-.nav-subjects,
-.nav-subjects-contact {
+.nav-subjects {
   color: white;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 900;
@@ -63,36 +54,25 @@ body {
   height: 50px;
   width: 50x;
   color: white;
-  position: absolute;
-
-  right: 515px;
+  padding-top: 20px;
 }
 
 .fa-bandage {
   height: 50px;
   width: 50x;
   color: white;
-  position: absolute;
-
-  right: 350px;
 }
 
 .fa-cat {
   height: 50px;
   width: 50x;
   color: white;
-  position: absolute;
-
-  right: 215px;
 }
 
 .fa-mobile-screen {
   height: 50px;
   width: 50x;
   color: white;
-  position: absolute;
-  top: 70px;
-  right: 80px;
 }
 
 .nav-subjects-contact {
@@ -115,28 +95,38 @@ body {
 /* ************ main *************** */
 main {
   position: relative;
-
-  display: flexbox;
-  top: 120px;
+  background-color: #ebcfce;
+  padding-top: 120px;
 }
 
-.image-minefield-container {
-  margin: 20px 0px 0px 20px;
+.code-image-container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.code-image-text {
+  font-family: "Josefin Sans", sans-serif;
+  width: 20%;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.code-image {
   width: 350px;
-  border: var(--blog-purple) solid 2px;
-  display: inline-block;
-}
-.image-minefield {
-  width: 100%;
-  border: var(--blog-purple) solid 2px;
+  height: 275px;
+  text-align: center;
+  margin: auto;
 }
 
 .text-container {
-  background-color: #f6aa1c;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-  line-height: 5px;
-  height: 150px;
+
+  height: auto;
+  width: 25%;
 }
 .image-text-container {
   margin-top: 0;
@@ -157,7 +147,6 @@ main {
 .coding-journey-link:hover {
   cursor: grabbing;
   color: darkolivegreen;
-  font-size: 18px;
 }
 
 .image-learning-container {
