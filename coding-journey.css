@@ -2,10 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
-  background: url(images/pexels-lumn-399160.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  background-color: #ebcfce;
+  height: 100%;
 }
 
 .coding-blog-section {

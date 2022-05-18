@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  height: auto;
 
   /* background-image: url("images/circles-1176891.jpg"); */
 }
@@ -30,6 +30,11 @@ body {
   align-items: center;
 }
 
+.topnav-right {
+  display: flex;
+  align-items: center;
+}
+
 .nav-subject,
 .nav-subjects {
   color: white;
@@ -40,7 +45,6 @@ body {
 }
 
 .nav-subject {
-  float: left;
   margin-left: 36px;
 }
 
@@ -48,30 +52,30 @@ body {
   margin: 0 26px;
   text-decoration: none;
   font-size: 22px;
-}
-
-.fa-file-code {
-  height: 50px;
-  width: 50x;
-  color: white;
   padding-top: 20px;
 }
 
-.fa-bandage {
+.code {
   height: 50px;
-  width: 50x;
+  width: 50px;
   color: white;
 }
 
-.fa-cat {
+.bandage {
   height: 50px;
-  width: 50x;
+  width: 50px;
   color: white;
 }
 
-.fa-mobile-screen {
+.cat {
   height: 50px;
-  width: 50x;
+  width: 50px;
+  color: white;
+}
+
+.mobile {
+  height: 50px;
+  width: 50px;
   color: white;
 }
 
@@ -95,7 +99,7 @@ body {
 /* ************ main *************** */
 main {
   position: relative;
-  background-color: #ebcfce;
+  background-color: #eacdcf;
   padding-top: 120px;
 }
 
@@ -114,6 +118,7 @@ main {
   text-align: center;
   line-height: 1.4;
   font-size: 28px;
+  color: #344e41;
 }
 
 .code-image {
@@ -136,7 +141,7 @@ main {
 .image-text-container,
 .image-text {
   margin-top: 0;
-  padding: 25px 0px;
+  padding: 18px 0px;
   color: #344e41;
   font-size: 16px;
   font-weight: bold;
@@ -157,21 +162,41 @@ main {
   color: darkolivegreen;
 }
 
-.image-learning-container {
-  display: inline-block;
-  margin: 30px 0px 0px 80px;
+.image-links-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-right: 8.5%;
+}
+
+/* ********** blog posts section ************* */
+
+.blog-posts {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: column;
   vertical-align: top;
   height: auto;
-  width: 400px;
+  width: 80%;
+  margin-top: 80px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   position: relative;
 }
 
+.image-container {
+  height: 250px;
+  padding: 25px;
+}
+
 .image-learning {
   height: 150px;
-  width: 150px;
+  width: 250px;
   margin-top: 8px;
+  border-radius: 60px;
 }
 
 .learning-text {
@@ -182,20 +207,10 @@ main {
 .learning-text:hover {
   color: #00b4d8;
   cursor: grabbing;
-  font-size: 18px;
 }
 
-.image-heart-container {
-  display: inline-block;
-  margin: 30px 0px 0px 80px;
-  vertical-align: top;
-  height: auto;
-  width: 400px;
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-}
 .image-heart {
-  height: 150px;
+  height: 170px;
   width: 170px;
 }
 .heart-text {
@@ -208,19 +223,9 @@ main {
   font-size: 18px;
 }
 
-.image-rabbit-container {
-  display: inline-block;
-  margin: 30px 0px 0px 80px;
-  vertical-align: top;
-  height: auto;
-  width: 400px;
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-}
-
 .image-rabbit {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .rabbit-text {
