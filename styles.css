@@ -110,8 +110,10 @@ main {
 .code-image-text {
   font-family: "Josefin Sans", sans-serif;
   width: 20%;
-  padding-top: 90px;
+  padding-top: 40px;
   text-align: center;
+  line-height: 1.4;
+  font-size: 28px;
 }
 
 .code-image {
@@ -119,25 +121,31 @@ main {
   height: 275px;
   text-align: center;
   margin: auto;
+  /* border: 4px solid #6d597a; */
+  box-shadow: 10px 10px 4px #6d597a;
 }
 
 .text-container {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-
+  font: 20px;
   height: auto;
   width: 25%;
 }
-.image-text-container {
+
+.image-text-container,
+.image-text {
   margin-top: 0;
-  padding: 20px 0px;
+  padding: 25px 0px;
   color: #344e41;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .coding-journey-link {
   color: #3a7575;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 20px;
   margin: 26px 0px;
