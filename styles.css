@@ -210,6 +210,10 @@ main {
   height: 170px;
   width: 170px;
 }
+
+.health-link {
+  text-decoration: none;
+}
 .heart-text {
   color: #a30b2e;
   font-size: 20px;
@@ -227,6 +231,10 @@ main {
 .cup-text {
   color: #386641;
   font-size: 20px;
+}
+
+.animal-link {
+  text-decoration: none;
 }
 
 .cup-text:hover {
