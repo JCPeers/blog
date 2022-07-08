@@ -1,52 +1,49 @@
-.coding-blog-sections {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 150px;
+h1 {
+  font-size: 40px;
+}
+
+body {
   background-color: #ebcfce;
-  height: 100%;
 }
 
-.coding-blog-section {
-  width: 500px;
-  margin-top: 10px;
+/* /* ********* top section ************ */
+
+.section-container {
+  display: flex;
+  padding-top: 150px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
   font-family: "Josefin Sans", sans-serif;
-}
-
-.section-large {
   width: 1200px;
   height: auto;
   margin: 10px auto;
-  display: flex;
-  flex-wrap: nowrap;
   background: transparent;
 }
 
-.why-coding-title {
+.title {
   font-size: 32px;
   padding-top: 100px;
   width: 850px;
+  justify-content: space-around;
 }
 
 .why-coding-article {
   padding-top: 40px;
 }
 
-.laptop-image-container {
+.image-container {
   width: 40%;
   margin: 20px;
+  justify-content: space-around;
 }
 
-.laptop-blog-section {
+.image {
   height: 275px;
   width: 420px;
   margin-left: 40px;
   border: 2px solid #5a3c55;
+  border-radius: 8px;
 }
 
-.section-small {
-  width: 500px;
-  height: auto;
-  margin: 50px auto;
+. text-container {
+  justify-content: space-around;
 }
