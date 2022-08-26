@@ -97,22 +97,25 @@ body {
 /* ************ main *************** */
 main {
   position: relative;
-  background-color: #eacdcf;
+  background-color: #fff;
   padding-top: 120px;
+}
+.home-page-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .code-image-container {
-  margin: auto;
-  width: 90%;
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
 }
 
 .code-image-text {
   font-family: "Josefin Sans", sans-serif;
-  width: 20%;
-  padding-top: 40px;
+  width: 100%;
+  padding-top: 20px;
   text-align: center;
   line-height: 1.4;
   font-size: 28px;
@@ -120,11 +123,11 @@ main {
 }
 
 .code-image {
-  width: 350px;
-  height: 275px;
+  width: 40%;
+  height: 400px;
   text-align: center;
   margin: auto;
-  box-shadow: 10px 10px 4px #6d597a;
+  box-shadow: 6px 6px 2px #6d597a;
 }
 
 .text-container {
@@ -132,7 +135,8 @@ main {
   font-family: "Josefin Sans", sans-serif;
   font: 20px;
   height: auto;
-  width: 25%;
+  width: 40%;
+  margin: auto;
 }
 
 .image-text-container,
@@ -170,18 +174,22 @@ main {
 
 .blog-posts {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   height: auto;
   width: 80%;
-  margin: 80px 0px;
-  text-align: center;
+  /* margin: 80px 0px; */
   font-family: "Josefin Sans", sans-serif;
-  position: relative;
+  /* position: relative; */
+}
+
+.text-container {
+  text-align: left;
 }
 
 .image-container {
@@ -241,9 +249,6 @@ main {
   color: #008000;
   cursor: grabbing;
 }
-.text-container {
-  width: 300px;
-}
 
 /* ************* footer************** */
 .footer {
@@ -253,7 +258,7 @@ main {
   bottom: 0;
   height: 40px;
   width: 100%;
-  background-color: var(--blog-pink);
+  background-color: var(--blog-purple);
   color: var(--blog-skinColor);
   padding: 20px;
 }
