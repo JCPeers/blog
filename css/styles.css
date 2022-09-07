@@ -14,6 +14,7 @@
 body {
   margin: 0;
   height: 100%;
+  font-family: "Raleway", sans-serif;
 }
 
 /* *********** Header- Nav bar ************* */
@@ -37,7 +38,7 @@ body {
 .nav-subject,
 .nav-subjects {
   color: white;
-  font-family: "Josefin Sans", sans-serif;
+
   font-weight: 900;
   font-size: 26px;
   text-decoration: none;
@@ -99,7 +100,7 @@ body {
 main {
   position: relative;
   background-color: #fff;
-  padding-top: 120px;
+  padding: 120px 60px;
 }
 .home-page-section {
   width: 100%;
@@ -114,14 +115,13 @@ main {
 }
 
 .code-image-text {
-  font-family: "Josefin Sans", sans-serif;
   width: 100%;
+  color: var(--blog-purple);
   padding-top: 20px;
-  text-align: center;
+
   line-height: 1.4;
   font-size: 2.5rem;
-  font-weight: 400;
-  color: #4c225b;
+  font-weight: 600;
 }
 
 .code-image {
@@ -130,31 +130,30 @@ main {
   text-align: center;
   margin: auto;
   box-shadow: 6px 6px 2px #6d597a;
+  border-radius: 4px;
 }
 
-.text-container {
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-  font: 20px;
+.main-text-container {
+  text-align: left;
+  font-size: 20px;
   height: auto;
   width: 40%;
-  margin: auto;
+  margin: 0;
 }
 
 .image-text-container,
 .image-text {
   margin-top: 0;
   padding: 18px 0px;
-  color: var(--blog-darkGreen);
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .coding-journey-link {
-  color: var(--blog-darkGreen);
+  color: black;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   padding-bottom: 20px;
   margin: 26px 0px;
   display: block;
@@ -164,6 +163,7 @@ main {
 .coding-journey-link:focus {
   cursor: grabbing;
   color: var(--blog-purple);
+  font-weight: bold;
 }
 
 .image-links-section {
@@ -178,83 +178,64 @@ main {
 .blog-posts {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
   height: auto;
-  width: 80%;
+  margin-bottom: 20px;
+  /* width: 80%; */
   /* margin: 80px 0px; */
-  font-family: "Josefin Sans", sans-serif;
   /* position: relative; */
 }
 
 .image-container {
-  height: 250px;
-  padding: 25px;
+  /* height: 250px; */
 }
 
-.image-container,
+/* .image-container,
 .text-container {
   margin: 0 auto;
+} */
+
+.image-learning,
+.image-health,
+.image-break {
+  height: 170px;
+  width: 160px;
+  border-radius: 4px;
 }
 
-.image-learning {
-  height: 150px;
-  width: 250px;
-  margin-top: 8px;
-  border-radius: 60px;
-}
-
-.learning-text {
+.text-learning,
+.text-health,
+.text-break {
   color: #663366;
-  font-size: 20px;
+  font-size: 14px;
+}
+p {
 }
 
-.learning-text:hover {
+.text-learning:hover {
   color: #b53389;
   cursor: grabbing;
 }
 
-.image-heart {
-  height: 170px;
-  width: 170px;
-}
-
-.health-link {
-  text-decoration: none;
-}
-.heart-text {
-  color: #a30b2e;
-  font-size: 20px;
-}
-.heart-text:hover {
+.text-health:hover {
   color: #e62020;
   cursor: grabbing;
 }
 
-.image-cup {
-  height: 200px;
-  width: 200px;
-}
-
-.cup-text {
-  color: #386641;
-  font-size: 20px;
-}
-
-.animal-link {
-  text-decoration: none;
-}
-
-.cup-text:hover {
+.text-break:hover {
   color: #008000;
   cursor: grabbing;
+}
+
+.health-link,
+.animal-link {
+  text-decoration: none;
 }
 
 /* ************* footer************** */
@@ -271,6 +252,5 @@ main {
 }
 
 .footer-name {
-  font-family: "Josefin Sans", sans-serif;
   margin: 0;
 }
