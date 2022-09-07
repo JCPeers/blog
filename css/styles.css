@@ -1,6 +1,6 @@
 :root {
   --blog-purple: #c21689;
-  --blog-mauve: #7c4b9c;
+  --blog-mauve: #660c48;
   --blog-pink: #b56576;
   --blog-blushPink: #e56b6f;
   --blog-skinColor: #eaac8b;
@@ -15,6 +15,7 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Raleway", sans-serif;
+  background-color: ;
 }
 
 /* *********** Header- Nav bar ************* */
@@ -43,6 +44,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   margin-left: 36px;
+  letter-spacing: 1;
 }
 
 .nav-subjects {
@@ -51,6 +53,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   margin-right: 28px;
+  letter-spacing: 1;
 }
 
 .nav-subjects-contact {
@@ -68,20 +71,23 @@ body {
 .title {
   text-align: center;
   padding-bottom: 120px;
+  letter-spacing: 1;
 }
 
 .main-subtitle-top {
   font-size: 12px;
+  margin-bottom: 0;
 }
 
 .main-subtitle-bottom {
   font-size: 16px;
+  margin-top: 0;
 }
 
 .main-title {
   font-size: 56px;
   color: var(--blog-purple);
-  margin: 12px 0;
+  margin: 12px 0 6px 0;
 }
 
 main {
@@ -101,6 +107,15 @@ main {
   display: flex;
 }
 
+.main-text-container {
+  text-align: left;
+  font-size: 20px;
+  height: auto;
+  width: 40%;
+  margin: 0;
+  letter-spacing: 1.8;
+}
+
 .code-image-text {
   width: 100%;
   color: var(--blog-mauve);
@@ -118,14 +133,6 @@ main {
   margin: auto;
   box-shadow: 6px 6px 2px #6d597a;
   border-radius: 4px;
-}
-
-.main-text-container {
-  text-align: left;
-  font-size: 20px;
-  height: auto;
-  width: 40%;
-  margin: 0;
 }
 
 .image-text-container,
@@ -174,6 +181,7 @@ main {
   justify-content: flex-start;
   height: auto;
   margin-bottom: 20px;
+
   /* width: 80%; */
   /* margin: 80px 0px; */
   /* position: relative; */
