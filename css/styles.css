@@ -1,6 +1,6 @@
 :root {
-  --blog-purple: #b53389;
-  --blog-mauve: #6d597a;
+  --blog-purple: #c21689;
+  --blog-mauve: #7c4b9c;
   --blog-pink: #b56576;
   --blog-blushPink: #e56b6f;
   --blog-skinColor: #eaac8b;
@@ -20,7 +20,7 @@ body {
 /* *********** Header- Nav bar ************* */
 
 .topnav {
-  background-color: var(--blog-purple);
+  background-color: #fff;
   overflow: hidden;
   width: 100%;
   position: fixed;
@@ -28,55 +28,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 32px 8px;
 }
 
 .topnav-right {
   display: flex;
   align-items: center;
-}
-
-.nav-subject,
-.nav-subjects {
-  color: white;
-
-  font-weight: 900;
-  font-size: 26px;
-  text-decoration: none;
+  font-weight: 400;
 }
 
 .nav-subject {
+  color: var(--blog-purple);
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: none;
   margin-left: 36px;
 }
 
 .nav-subjects {
-  margin: 0 26px;
+  color: var(--blog-purple);
+  font-weight: 400;
+  font-size: 16px;
   text-decoration: none;
-  font-size: 22px;
-  padding-top: 20px;
-}
-
-.code {
-  height: 50px;
-  width: 50px;
-  color: white;
-}
-
-.bandage {
-  height: 50px;
-  width: 50px;
-  color: white;
-}
-
-.cat {
-  height: 50px;
-  width: 50px;
-  color: white;
-}
-
-.mobile {
-  height: 50px;
-  width: 50px;
-  color: white;
+  margin-right: 28px;
 }
 
 .nav-subjects-contact {
@@ -84,19 +58,32 @@ body {
   font-size: 22px;
 }
 
-.nav-subject:hover {
-  color: var(--blog-blushPink);
-}
-
+.nav-subject:hover,
 .nav-subjects:hover {
   color: var(--blog-skinColor);
 }
 
-.nav-subjects-contact:hover {
-  color: var(--blog-blushPink);
+/* ************ main *************** */
+
+.title {
+  text-align: center;
+  padding-bottom: 120px;
 }
 
-/* ************ main *************** */
+.main-subtitle-top {
+  font-size: 12px;
+}
+
+.main-subtitle-bottom {
+  font-size: 16px;
+}
+
+.main-title {
+  font-size: 56px;
+  color: var(--blog-purple);
+  margin: 12px 0;
+}
+
 main {
   position: relative;
   background-color: #fff;
@@ -116,7 +103,7 @@ main {
 
 .code-image-text {
   width: 100%;
-  color: var(--blog-purple);
+  color: var(--blog-mauve);
   padding-top: 20px;
 
   line-height: 1.4;
