@@ -194,8 +194,10 @@ main {
   align-items: center;
 }
 
-.image-child {
+.image-child,
+.image-woman {
   width: 80%;
+  border-radius: 4px;
 }
 
 .small-card {
@@ -211,7 +213,8 @@ main {
 }
 
 .image-learning,
-.image-health {
+.image-health,
+.image-people {
   height: 160px;
   width: 30%;
   border-radius: 4px;
@@ -238,13 +241,12 @@ main {
   color: #663366;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .small-link:hover {
   color: #b53389;
   cursor: grabbing;
-  font-weight: 800;
 }
 
 .small-card-para {
