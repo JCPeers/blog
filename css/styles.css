@@ -157,7 +157,7 @@ main {
 .coding-journey-link:focus {
   cursor: grabbing;
   color: var(--blog-purple);
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .image-links-section {
@@ -173,46 +173,41 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
   margin-top: 100px;
 }
-.card {
+.small-card {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: auto;
-  margin: 20px 20px 20px 60px;
+  flex-direction: row-reverse;
 
+  justify-content: flex-end;
+
+  height: auto;
+  margin: 20px;
+  width: 35%;
   /* width: 80%; */
   /* margin: 80px 0px; */
   /* position: relative; */
 }
 
-.image-container {
-  /* height: 250px; */
-}
-
-/* .image-container,
-.text-container {
-  margin: 0 auto;
-} */
-
 .image-learning,
-.image-health {
-  height: 160px;
-  width: 150px;
+.image-health,
+.image-break {
+  height: 150px;
+  width: 40%;
   border-radius: 4px;
 }
+
 .image-break {
-  height: 180px;
-  width: 150px;
+  height: 150px;
+  width: 40%;
   border-radius: 4px;
 }
 
 .text-container {
-  margin-left: 40px;
+  margin-right: 40px;
   padding-top: 20px;
-  width: 40%;
+  width: 50%;
 }
 
 .link {
@@ -222,19 +217,10 @@ main {
   font-weight: 600;
 }
 
-.text-learning:hover {
+.link:hover {
   color: #b53389;
   cursor: grabbing;
-}
-
-.text-health:hover {
-  color: #e62020;
-  cursor: grabbing;
-}
-
-.text-break:hover {
-  color: #008000;
-  cursor: grabbing;
+  font-weight: 800;
 }
 
 .health-link,
