@@ -65,6 +65,14 @@ body {
   color: var(--blog-skinColor);
 }
 
+#toggle-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 4px;
+}
+
 /* ************ main *************** */
 
 .title {
