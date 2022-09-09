@@ -15,13 +15,11 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Raleway", sans-serif;
-  background-color: ;
 }
 
 /* *********** Header- Nav bar ************* */
 
 .topnav {
-  background-color: #fff;
   overflow: hidden;
   width: 100%;
   position: fixed;
@@ -30,6 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 32px 8px;
+  background-color: white;
 }
 
 .topnav-right {
@@ -82,6 +81,7 @@ body {
 .main-subtitle-bottom {
   font-size: 16px;
   margin-top: 0;
+  /* text-decoration: underline; */
 }
 
 .main-title {
@@ -92,7 +92,6 @@ body {
 
 main {
   position: relative;
-  background-color: #fff;
   padding: 120px 20px;
 }
 .home-page-section {
@@ -194,6 +193,10 @@ main {
   align-items: center;
 }
 
+.medium-card-top {
+  padding-bottom: 40px;
+}
+
 .image-child,
 .image-woman {
   width: 80%;
@@ -271,4 +274,13 @@ main {
 
 .footer-name {
   margin: 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-text {
+  color: white;
 }
