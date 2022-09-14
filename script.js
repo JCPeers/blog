@@ -7,6 +7,7 @@ toggleButton.addEventListener("click", function () {
   makeNavSubjectsDark();
   makeMainTitleDark();
   makeCodeImageTextDark();
+  makeCodeImageDark();
   makeCodingLinkJourneyDark();
   makeSmallLinkDark();
   makeFooterNameDark();
@@ -42,6 +43,11 @@ function makeMainTitleDark() {
 function makeCodeImageTextDark() {
   const codeImageText = document.getElementsByClassName("code-image-text");
   codeImageText[0].classList.toggle("dark-mode-text");
+}
+
+function makeCodeImageDark() {
+  const codeImage = document.getElementsByClassName("code-image");
+  codeImage[0].classList.toggle("dark-mode-image");
 }
 
 function makeCodingLinkJourneyDark() {

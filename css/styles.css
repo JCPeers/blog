@@ -293,3 +293,7 @@ main {
 .dark-mode-text {
   color: white;
 }
+
+.dark-mode-image {
+  box-shadow: none;
+}
