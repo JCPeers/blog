@@ -274,16 +274,43 @@ main {
 
 .footer {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 40px;
   width: 100%;
   color: var(--blog-purple);
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 .footer-name {
   margin: 0;
+  padding-right: 40px;
+  font-size: 14px;
 }
+
+.label-email {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.input-email {
+  border: 1px solid var(--blog-mauve);
+  margin-left: 10px;
+}
+
+.send-email {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 0px #fff solid;
+  background-color: var(--blog-mauve);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+/* ******** dark mode classes ****** */
 
 .dark-mode {
   background-color: black;
